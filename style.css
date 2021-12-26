@@ -84,12 +84,14 @@ footer {
 
 @media (min-width: 376px) {
   .content {
-    width: 32%;
-    padding: 2rem 2rem 3rem;
+    width: 30%;
+    padding: 2rem 2rem 2rem;
     margin-top: 5rem;
-    /* font-size: ; */
+  } 
+
+  p {
+    font-size: 1.125rem;
   }
-  
   .attribution {
     font-size: 1.125rem;
   }
