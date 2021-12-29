@@ -25,6 +25,10 @@ span {
   color: hsl(0, 0%, 100%);
 }
 
+h2:hover, span:hover{
+  color: hsl(178, 100%, 50%)
+}
+
 p {
   color: hsl(216, 25%, 62%);
   font-size: 1rem;
@@ -64,7 +68,7 @@ p {
 
 .icons .price {
   color: hsl(178, 100%, 50%);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 footer {
@@ -80,6 +84,29 @@ footer {
 
 .attribution a {
   color: hsl(175, 77%, 45%);
+}
+
+.svg-content{
+  position: relative;
+  
+}
+
+svg{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 43%;
+  opacity: 0;
+  transition: opacity 1s ease;
+  
+}
+
+svg:hover{
+  opacity: 1;
+  
 }
 
 @media (min-width: 376px) {
