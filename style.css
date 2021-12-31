@@ -21,12 +21,16 @@ main{
   box-shadow: 1px 20px 5px 20px hsl(216, 53%, 10%);
 }
 
-h2,
+h1{
+  font-size: 1.6rem;
+}
+
+h1,
 span {
   color: hsl(0, 0%, 100%);
 }
 
-h2:hover, span:hover{
+h1:hover, span:hover{
   color: hsl(178, 100%, 50%)
 }
 
